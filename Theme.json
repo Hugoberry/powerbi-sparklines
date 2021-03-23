@@ -1,0 +1,44 @@
+﻿{
+    "name": "Sparkline Typeface",
+    "visualStyles": {
+        "pivotTable": {
+            "Default": {
+                "values": [
+                    {   
+                        "fontFamily": "Sparks Bar"
+                    }
+                ]
+            },
+            "Condensed": {
+                "values": [
+                    {   
+                        "fontFamily": "Sparks Dot Large Regular",
+                        "backColorSecondary": { "solid": { "color": "#EFEFEF"}}
+                    }
+                ],
+                "grid":[{"rowPadding": 1 }],
+                "columnHeaders":[
+                    {
+                        "fontColor": { "solid": { "color": "#252423"}},
+                        "backColor": { "solid": { "color": "#FFFFFF"}}
+                    }
+                ]
+            },
+            "Sparse": {
+                "values": [
+                    {   
+                        "fontFamily": "Sparks Dot-line Extra-thick Regular",
+                        "backColorSecondary": { "solid": { "color": "#EFEFEF"}}
+                    }
+                ],
+                "grid":[{"rowPadding": 1}],
+                "columnHeaders":[
+                    {
+                        "fontColor": { "solid": { "color": "#252423"}},
+                        "backColor": { "solid": { "color": "#FFFFFF"}}
+                    }
+                ]
+            }
+        }
+    }
+}
